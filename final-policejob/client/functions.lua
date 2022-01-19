@@ -58,7 +58,7 @@ function ApplySkin(infos)
 		if skin.sex == 0 then
 			uniformObject = infos.variations.male
 		else
-			uniformObject = infos.variations..female
+			uniformObject = infos.variations.female
 		end
 
 		if uniformObject then
